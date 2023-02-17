@@ -3,7 +3,7 @@ import './App.css';
 import React, { useState } from "react";
 import { FileUploader } from "react-drag-drop-files";
 
-const fileTypes = ["JPG", "PNG", "GIF"];
+const fileTypes = ["JPG", "PNG", "GIF","PDF"];
 
 function App() {
   const [file, setFile] = useState(null);
